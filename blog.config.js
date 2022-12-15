@@ -40,7 +40,7 @@ const BLOG = {
   telegramChannelUrl: 'https://channel.oeyoews/', // The link of your Telegram channel
   telegramChannelName: 'oeyoews', // The name of your Telegram channel
   // Dont change that
-  craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
+  craftConfigShareUrl: 'https://www.craft.do/s/Ct5iWP7AgK5uZC', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
