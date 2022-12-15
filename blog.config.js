@@ -31,7 +31,8 @@ const BLOG = {
     keywords: ['Notionic', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionPageId:
+    process.env.NOTION_PAGE_ID || '7983b7cf8f8c406b8c83b8f90800b627', // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: '',
