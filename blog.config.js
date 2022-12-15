@@ -35,7 +35,7 @@ const BLOG = {
     process.env.NOTION_PAGE_ID || '7983b7cf8f8c406b8c83b8f90800b627', // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: '',
+  notionDomain: 'https://notionic-oeyoews.vercel.app',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '1856019970', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.oeyoews/', // The link of your Telegram channel
