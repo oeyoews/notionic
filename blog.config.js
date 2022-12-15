@@ -14,7 +14,9 @@ const BLOG = {
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
-  showNewsletter: true,
+  // bug don't show newsletter
+  // NOTE don't change that templately, will cause translate error
+  showNewsletter: false,
   previewImagesEnabled: true,
   showTitlebarText: false, // Craft Docs page show title bar text on desktop
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
@@ -37,8 +39,7 @@ const BLOG = {
   telegramChatId: '1856019970', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.oeyoews/', // The link of your Telegram channel
   telegramChannelName: 'oeyoews', // The name of your Telegram channel
-  // NOTE don't change that templately, will cause translate error
-  craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
+  craftConfigShareUrl: 'https://www.craft.do/s/Ct5iWP7AgK5uZC', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
