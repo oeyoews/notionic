@@ -4,8 +4,7 @@ const BLOG = {
   email: 'jyao4783@gmail.com',
   link: 'https://notionic-oeyoews.vercel.app',
   newsletter: 'Notionic Weekly',
-  // description: 'A static blog build on top of Notion and Next.js',
-  description: '',
+  description: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
