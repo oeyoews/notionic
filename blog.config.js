@@ -4,7 +4,7 @@ const BLOG = {
   email: 'jyao4783@gmail.com',
   link: 'https://notionic-oeyoews.vercel.app',
   newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  description: 'Personal Notes',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -37,6 +37,7 @@ const BLOG = {
   telegramChatId: '1856019970', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.oeyoews/', // The link of your Telegram channel
   telegramChannelName: 'oeyoews', // The name of your Telegram channel
+  // NOTE don't change that templately, will cause translate error
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
