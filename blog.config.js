@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: true,
   // bug don't show newsletter
   // NOTE don't change that templately, will cause translate error
-  showNewsletter: false,
+  showNewsletter: true,
   previewImagesEnabled: true,
   showTitlebarText: false, // Craft Docs page show title bar text on desktop
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
