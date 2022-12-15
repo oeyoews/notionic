@@ -14,7 +14,7 @@ const BLOG = {
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
-  showNewsletter: false,
+  showNewsletter: true,
   previewImagesEnabled: true,
   showTitlebarText: false, // Craft Docs page show title bar text on desktop
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
