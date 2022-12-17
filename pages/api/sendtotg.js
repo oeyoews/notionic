@@ -12,7 +12,7 @@ export default async function sendtotg(req, res) {
     body: JSON.stringify({
       chat_id: TG_CHAT_ID,
       text: req.body
-    })
+    }, nil, 2)
   }
   const response = await fetch(tgUrl, init)
   if (response.status === 200) {
